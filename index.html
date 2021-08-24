@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>B&M Credit Union</title>
+</head>
+
+<body>
+  <div class="container">
+    <section>
+    <h1>B&M Credit Union - Because You Of All People Shouldn't Be Allowed To Hold Money</h1>
+    <form id="newAccount">
+      <label for="name" class="title">Name: </label>
+      <input id="name" class="form-control" type="text" required>
+      <label for="balance" class="title">Initial Deposit:</label>
+      <input id="balance" class="form-control" type="number" required>
+      <button class="submit">submit</button>
+      <br>
+    </form>
+      <form id="deposit">
+        <label for="add" class="title"> Deposit Amount</label>
+        <input id="add" class="form-control" type="number" required>
+        <button class="submit">submit</button>
+      </form>
+      <form id ="withdrawal">
+        <label for="subtract" class="title"></label>Withdrawal Amount</label>
+        <input id="subtract" class="form-control" type="number" required>
+        <button class="submit">submit</button>
+      </form>
+  <h1 class="title">Account Balance</h1>
+  <div id="BankBalance" class="balance-txt">
+  </div>
+</body>
+
+</html>
